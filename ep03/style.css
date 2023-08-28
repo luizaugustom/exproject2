@@ -1,0 +1,109 @@
+#geral{
+    width: 1008px;
+    margin: 0px auto 0;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 65px;
+}
+body{
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0.00) 0%, rgba(227, 255, 248, 0.38) 100%);
+    min-height: 100vh;
+}
+h1{
+    color: #000;
+    font-size: 49px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 114.286% */
+    font-family: 'Mulish', sans-serif;
+}
+h1 span{
+    color: #89C5CC;
+    font-size: 49px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+p{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 40px;
+}
+strong p{
+    color: #7D7987;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+footer{
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 200% */
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    gap: 48px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+
+}
+ul li a {
+    text-decoration: none;
+    color: var(--1-f-1534-hyfen, #1F1534);
+    opacity: 0.5;
+}
+ul li a:hover{
+    font-weight: bold;
+    opacity: 1;
+}
+button{
+    border-radius: 4px;
+    background: var(--primary-color, #69B99D);
+    display: inline-flex;
+    height: 56px;
+    justify-content: center;
+    padding: 14px 32px 15px 32px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background: #29b181;
+}
+button a{
+    color: var(--background-1, #F9F9F9);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#balls{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 98.394px;
+    height: 88.001px;
+    flex-shrink: 0;
+    opacity: 0.3;
+}
